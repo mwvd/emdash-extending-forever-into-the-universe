@@ -42,3 +42,8 @@ foreverIntoTheUniverse({
 
 Colophon —————
 The type used in the demo image is AUTHENTIC Sans 60 by [AUTHENTIC](https://authentic.website/).
+
+
+<p align="center">made w love by your friends at</p>
+<p align="center"><img src="https://ixi4jeb43ehhpm46.s3.amazonaws.com/assets/4us4others/4us.png" alt="4 others"/></p>
+
