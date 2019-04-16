@@ -1,5 +1,7 @@
 <h1 align="center">Emdash Extending Forever Into The Universe</h1>
 
+![friends](friends.png "friends")
+
 ### Abstract
 Em dashes ——————— aren't long enough
 
