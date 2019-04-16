@@ -1,0 +1,11 @@
+{
+  "name": "emdash-extending-forever-into-the-universe",
+  "version": "0.0.1",
+  "description": "em dash longer",
+  "main": "npm help json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mackenzie Davidson <mwvdavidson@gmail.com> (http://mackenzie.blue)",
+  "license": "MIT"
+}
