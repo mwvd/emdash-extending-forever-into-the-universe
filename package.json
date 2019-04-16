@@ -2,10 +2,18 @@
   "name": "emdash-extending-forever-into-the-universe",
   "version": "0.0.1",
   "description": "em dash longer",
-  "main": "npm help json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "dist/emdash-extending-forever-into-the-universe.min.js",
   "author": "Mackenzie Davidson <mwvdavidson@gmail.com> (http://mackenzie.blue)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwvd/emdash-extending-forever-into-the-universe.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-uglify": "^4.0.1"
+  },
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
 }

@@ -1,0 +1,22 @@
+<body>
+    <span class="test">this is an — em dash in a class</span>
+    <br/>
+    <br/>
+    <span id="test">this is an — em dash in an id</span>
+    <br/>
+    <br/>
+    this is an — em dash all by itself :(
+    <br/>
+    <br/>
+    <span class="test">this is another — em dash in a class</span>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="src/emdash-extending-forever-into-the-universe.js" type="text/javascript"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            foreverIntoTheUniverse({
+                whereToReplace: ".test"
+            });
+        });
+    </script>
+</body>
