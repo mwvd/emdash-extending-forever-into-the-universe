@@ -35,3 +35,8 @@ foreverIntoTheUniverse({
 	howMuchCloserCouldWePossiblyBe: '0.25' // sometimes font hinting fucks this up a bit, so you can adjust this if so. this is a negative value
 });
 ```
+
+---
+
+Colophon —————
+The type used in the demo image is AUTHENTIC Sans 60 by [AUTHENTIC](https://authentic.website/).
