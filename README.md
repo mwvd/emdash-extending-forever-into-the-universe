@@ -9,6 +9,8 @@ Em dashes ——————— aren't long enough
 Installation
 ----
 
+`npm install emdash-extending-forever-into-the-universe` lmao
+
 Include `emdash-extending-forever-into-the-universe.min.js` at the end of your `body`. Next, call `foreverIntoTheUniverse();`. You will probably want to call this once the DOM has loaded, so make sure to do so, although I'm sure you could get away without it. That's pretty much it. All your `—`s should be longer now.
 
 ```html
