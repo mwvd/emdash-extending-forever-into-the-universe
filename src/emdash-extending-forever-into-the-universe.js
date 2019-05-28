@@ -1,15 +1,9 @@
-function setDefaults(options, defaults){
-    return _.defaults({}, _.clone(options), defaults);
-}
-
 function foreverIntoTheUniverse (options) {
-    var defaults = {
-        howLong: 2,
-        whatToReplace: '—',
-        whereToReplace: 'body',
-        howMuchCloserCouldWePossiblyBe: '0.25'
-    };
-    options = setDefaults(options, defaults);
+    options.howLong = options.howLong || 2;
+    options.whatToReplace = options.whatToReplace || '—';
+    options.whereToReplace = options.whereToReplace || 'body';
+    options.howMuchCloserCouldWePossiblyBe = options.howMuchCloserCouldWePossiblyBe || '0.25';
+
     var extend = "<span style=\"letter-spacing:-" + options.howMuchCloserCouldWePossiblyBe + "em\">" + options.whatToReplace + "</span>"
     var replaceMe = options.whereToReplace.slice(0,1)
     var withMe = options.whereToReplace.substring(1)
