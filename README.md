@@ -37,9 +37,8 @@ foreverIntoTheUniverse({
 });
 ```
 
+Colophon ——————————
 ---
-
-Colophon —————
 The type used in the demo image is AUTHENTIC Sans 60 by [AUTHENTIC](https://authentic.website/).
 
 
