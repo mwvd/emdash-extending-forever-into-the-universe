@@ -1,6 +1,6 @@
 {
   "name": "emdash-extending-forever-into-the-universe",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "longer em dashes",
   "main": "dist/emdash-extending-forever-into-the-universe.min.js",
   "author": "Mackenzie Davidson <mwvdavidson@gmail.com> (http://mackenzie.blue)",
@@ -10,8 +10,94 @@
     "url": "https://github.com/mwvd/emdash-extending-forever-into-the-universe.git"
   },
   "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-contrib-watch": "^1.1.0"
-  }
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "grunt": "^1.1.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "prettier": "^2.0.4"
+  },
+  "prettier": {
+    "printWidth": 160,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": false,
+    "bracketSpacing": true,
+    "overrides": [
+      {
+        "files": [
+          "*.js"
+        ],
+        "options": {
+          "tabWidth": 2,
+          "semi": false,
+          "singleQuote": true
+        }
+      },
+      {
+        "files": [
+          "*.html"
+        ],
+        "options": {
+          "parser": "html",
+          "htmlWhitespaceSensitivity": "strict"
+        }
+      },
+      {
+        "files": [
+          "*.json"
+        ],
+        "options": {
+          "useTabs": false,
+          "tabWidth": 2
+        }
+      }
+    ]
+  },
+  "prettierIgnore": [
+    "*.min.js"
+  ],
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "airbnb-base",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "func-names": "off",
+      "no-console": "warn",
+      "prefer-destructuring": "off",
+      "array-bracket-spacing": [
+        0,
+        "always",
+        {
+          "objectsInArrays": false
+        }
+      ],
+      "object-curly-spacing": [
+        "warn",
+        "always"
+      ],
+      "prettier/prettier": [
+        "warn"
+      ]
+    }
+  },
+  "eslintIgnore": [
+    "*.min.js",
+    "Gruntfile.js"
+  ],
+  "dependencies": {}
 }

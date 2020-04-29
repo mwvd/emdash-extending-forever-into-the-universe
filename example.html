@@ -1,0 +1,46 @@
+<body>
+    <span class="em">this is an — em dash in an element with the class "em"</span>
+    <br />
+    <br />
+    <span id="nothing">this is an — em dash in an element with the id "nothing"</span>
+    <br />
+    <br />
+    this is an — em dash all by itself 😔
+    <br />
+    <br />
+    <span id="underscore">this is an _ underscore in an element with the id "underscore"</span>
+    <br />
+    <br />
+    <br />
+    <code>js</code> <div style="font-size: 12px; display: inline-block; transform: translateY(6px);">⤵</div>
+    <pre>
+    <code>
+    document.addEventListener("DOMContentLoaded", () => {
+        foreverIntoTheUniverse({
+            howLong: 8,
+            whereToReplace: ".em",
+        })
+        foreverIntoTheUniverse({
+            howLong: 4,
+            whatToReplace: "_",
+            whereToReplace: "#underscore",
+        })
+    })
+    </code>
+    </pre>
+
+    <script src="dist/emdash-extending-forever-into-the-universe.min.js" type="text/javascript"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            foreverIntoTheUniverse({
+                howLong: 8,
+                whereToReplace: ".em",
+            })
+            foreverIntoTheUniverse({
+                howLong: 4,
+                whatToReplace: "_",
+                whereToReplace: "#underscore",
+            })
+        })
+    </script>
+</body>
