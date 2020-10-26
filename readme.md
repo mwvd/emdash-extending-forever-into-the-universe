@@ -12,9 +12,9 @@ Em dashes ——————— aren't long enough
 
 ## Installation
 
-`npm install emdash-extending-forever-into-the-universe` lmao
+`npm install --save emdash-extending-forever-into-the-universe` lmao
 
-Include `emdash-extending-forever-into-the-universe.min.js` at the end of your `body`. Next, call `foreverIntoTheUniverse();`. You will probably want to call this once the DOM has loaded, so make sure to do so, although I'm sure you could get away without it. That's pretty much it. All your `—`s should be longer now.
+Include `emdash-extending-forever-into-the-universe.min.js` at the end of your `body`. Next, call `foreverIntoTheUniverse();`. You will probably want to call this once the DOM has loaded, so make sure to do so then, although I'm sure you could get away without it. That's pretty much it. All your `—`s should be longer now.
 
 ```html
 	<script type="text/javascript" src="emdash-extending-forever-into-the-universe.min.js"></script>
@@ -47,13 +47,14 @@ $ yarn
 $ grunt
 ```
 
-## Colophon ——————————
+## Colophon
 
 The type used in the demo image is AUTHENTIC Sans 60 by [AUTHENTIC ↗](https://authentic.website/).
 
 <br/><br/>
 
-## 🥚
+## ‎
 
-<p align="center">made w love by your friends at</p><br/>
+<br/><br/>
+
 <p align="center"><img src="https://ixi4jeb43ehhpm46.s3.amazonaws.com/assets/4us4others/4us.png" alt="4 us"/></p>
