@@ -85,7 +85,7 @@
       "object-curly-spacing": [
         "warn",
         "always"
-      ],
+      ]
     }
   },
   "eslintIgnore": [
